@@ -55,9 +55,12 @@ Claude: NVDA is the standout diversifier — near-zero correlation with everythi
 git clone https://github.com/staskh/trading_skills.git
 cd trading_skills
 uv sync
+
+# Run Claude Code
+claude
 ```
 
-Run Claude Code or Cursor in the repository root. All skills are available as interactive commands — ask questions about your IBKR portfolio, symbols, or companies of interest.
+Or open the repository root in Cursor. All skills are available as interactive commands — ask questions about your IBKR portfolio, symbols, or companies of interest.
 
 ### MCP Server (Claude Desktop)
 
