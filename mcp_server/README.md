@@ -21,7 +21,12 @@ MCP server providing trading analysis tools for stock quotes, technical analysis
    which trading-skills-mcp
    ```
 
-3. Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
+3. Add to `claude_desktop_config.json`:
+
+   - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - Linux: `~/.config/Claude/claude_desktop_config.json`
+   - Windows: `%APPDATA%\Claude\claude_desktop_config.json`
+
    ```json
    {
      "mcpServers": {
